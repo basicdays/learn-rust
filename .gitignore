@@ -4,6 +4,10 @@
 # General
 *.log
 
+# Rust
+*/target
+**/*.rs.bk
+
 # Editors
 /.idea/dataSources/
 /.idea/dictionaries/
