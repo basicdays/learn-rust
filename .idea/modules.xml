@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/guessing_game/guessing_game.iml" filepath="$PROJECT_DIR$/guessing_game/guessing_game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello_cargo/hello_cargo.iml" filepath="$PROJECT_DIR$/hello_cargo/hello_cargo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rust-book.iml" filepath="$PROJECT_DIR$/rust-book.iml" />
     </modules>
   </component>
