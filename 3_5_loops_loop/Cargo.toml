@@ -1,0 +1,7 @@
+[package]
+name = "3_5_loops_loop"
+version = "0.1.0"
+authors = ["basicdays <info@basicdays.com>"]
+edition = "2018"
+
+[dependencies]
