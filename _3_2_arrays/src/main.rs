@@ -1,6 +1,8 @@
+#[allow(unused_variables)]
+
 fn main() {
     let a = [1, 2, 3, 4, 5];
 
-    let _first = a[0];
-    let _second = a[1];
+    let first = a[0];
+    let second = a[1];
 }
