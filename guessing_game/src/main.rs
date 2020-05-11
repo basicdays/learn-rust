@@ -20,6 +20,12 @@ fn main() {
             Err(_) => continue,
         };
 
+        // or with the `::<>` turbofish syntax style
+        // let guess = match guess.trim().parse::<u32>() {
+        //     Ok(num) => num,
+        //     Err(_) => continue,
+        // };
+
         println!("You guessed: {}", guess);
 
         match guess.cmp(&secret_number) {
