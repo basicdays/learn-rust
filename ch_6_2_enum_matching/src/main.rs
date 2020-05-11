@@ -12,14 +12,17 @@ fn main() {
         "five is {}",
         five.map_or(String::from("none"), |val| val.to_string())
     );
+
     let six = plus_one(five);
-    println!(
-        "six is {}",
-        six.map_or(String::from("none"), |val| val.to_string())
-    );
+    match six {
+        Some(val) => println!("six is {}", val),
+        None => println!("six is none"),
+    }
+
     let none = plus_one(None);
-    println!(
-        "none is {}",
-        none.map_or(String::from("none"), |val| val.to_string())
-    );
+    if let Some(val) = none {
+        println!("none is {}", val);
+    } else {
+        println!("none is none");
+    }
 }
