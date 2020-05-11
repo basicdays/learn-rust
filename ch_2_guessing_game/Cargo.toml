@@ -1,0 +1,8 @@
+[package]
+name = "ch_2_guessing_game"
+version = "0.1.0"
+authors = ["basicdays <info@basicdays.com>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.6.5"
