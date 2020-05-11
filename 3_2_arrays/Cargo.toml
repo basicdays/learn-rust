@@ -1,7 +1,0 @@
-[package]
-name = "3_2_arrays"
-version = "0.1.0"
-authors = ["basicdays <info@basicdays.com>"]
-edition = "2018"
-
-[dependencies]
