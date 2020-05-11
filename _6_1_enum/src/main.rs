@@ -1,5 +1,6 @@
-#[allow(dead_code)]
+#![allow(dead_code)]
 
+#[derive(Debug)]
 enum Message {
     Quit,
     Move { x: i32, y: i32 },
@@ -9,7 +10,7 @@ enum Message {
 
 impl Message {
     fn call(&self) {
-        // method body would be defined here
+        println!("message is `{:?}`", self);
     }
 }
 

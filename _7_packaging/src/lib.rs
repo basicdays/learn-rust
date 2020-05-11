@@ -1,4 +1,5 @@
-#[allow(dead_code)]
+#![allow(dead_code)]
+
 mod back_of_house;
 mod front_of_house;
 

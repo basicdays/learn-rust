@@ -1,4 +1,4 @@
-#[allow(unused_variables)]
+#![allow(unused_variables)]
 
 fn main() {
     let s1 = gives_ownership(); // gives_ownership moves its return
