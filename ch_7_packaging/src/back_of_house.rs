@@ -12,6 +12,12 @@ impl Breakfast {
     }
 }
 
+// all variants of an enum are public if the enum is public
+pub enum Appetizer {
+    Soup,
+    Salad,
+}
+
 fn fix_incorrect_order() {
     cook_order();
     super::serve_order();
