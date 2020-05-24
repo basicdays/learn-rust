@@ -64,3 +64,6 @@
         ```
 -   LifeTime
     -   Scope for which a reference is valid
+-   consuming adapters
+    -   Methods that call `next` on an iterator. They will take ownership of
+        the iterator.
