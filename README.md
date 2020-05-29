@@ -6,5 +6,5 @@ Code and notes that I wrote while following along [The Rust Book][].
 
 ## Notes
 
-1.  [Terms](./doc/terms.md)
-2.  [Concepts](./doc/concepts.md)
+1. [Terms](./doc/terms.md)
+2. [Concepts](./doc/concepts.md)
