@@ -67,3 +67,36 @@
 - consuming adapters
   - Methods that call `next` on an iterator. They will take ownership of
     the iterator.
+- pointer
+  - A variable that contains an address in memory. This address "points at"
+    some other data.
+- reference pointer
+  - Indicated by a `&` symbol and borrow the value they point to.
+- smart pointer
+  - Act like a pointer, but have additional metadata and capabilities.
+  - May _own_ the data it points to
+- Object-oriented languages
+  - Object-oriented programs are made up of objects. An object packages both
+    data and the procedures that operate on that data. The procedures are
+    typically called methods or operations.
+- Encapsulation
+  - The implementation details of an object aren’t accessible to code using
+    that object
+- Inheritance
+  - A mechanism whereby an object can inherit from another object’s definition,
+    thus gaining the parent object’s data and behavior without you having to
+    define them again.
+- Polymorphism
+  - The ability to substitute multiple objects for each other at runtime if
+    they share certain characteristics.
+- Bounded Parametric Polymorphism
+  - Rust uses generics to abstract over different possible types and trait
+    bounds to impose constraints on what those types must provide.
+- Trait object
+  - A trait object points to both an instance of a type implementing our
+    specified trait as well as a table used to look up trait methods on that
+    type at runtime.
+- Dynamic dispatch
+  - The compiler can't tell at compile time which method you're calling. The
+    compiler will emit code that at a runtime will figure out which method to
+    call.

@@ -22,3 +22,17 @@
     2. if there is only one input, the output will get the same timeline
     3. if there are multiple input params, and one is `&self`, the output
        will get the same timeline as `&self`
+- Box pointers
+  - Stores data on the heap, rather than the stack.
+  - Usually used when:
+    1. When you have a type whose size can’t be known at compile time and you
+       want to use a value of that type in a context that requires an exact size
+    2. When you have a large amount of data and you want to transfer ownership
+       but ensure the data won’t be copied when you do so
+    3. When you want to own a value and you care only that it’s a type that
+       implements a particular trait rather than being of a specific type
+- Object-safe trait
+  - Trait objects requires object-safety
+  - The following are required for all methods in a trait:
+    1. The return type isn't `Self`
+    2. There are no generic type parameters

@@ -12,6 +12,12 @@ trim_trailing_whitespace = true
 [{Makefile,*.mk}]
 indent_style = tab
 
+# prettier issue with tabs in markdown
+# issue: https://github.com/prettier/prettier/issues/3223
+[*.md]
+indent_style = space
+indent_size = 2
+
 [*.{yaml,yml}]
 indent_style = space
 indent_size = 2
