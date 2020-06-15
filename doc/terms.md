@@ -100,3 +100,16 @@
   - The compiler can't tell at compile time which method you're calling. The
     compiler will emit code that at a runtime will figure out which method to
     call.
+- Irrefutable Pattern
+  - Patterns that will match for any possible value
+  - e.g. `let x = 5;`
+  - The pattern `x` will match anything and will not fail to
+    match.
+  - Required in function parameters, `let` statements, and `for` loops
+  - e.g. `let Some(x) = some_option_value;` is invalid
+- Refutable Pattern
+  - Patterns that can fail to match for some possible value
+  - e.g. `if let Some(x) = a_value`
+  - Allowable in `if let` and `while let` expressions
+  - Match arms must use refutable patterns, except for the last arm which should
+    match any remaining values with an irrefutable pattern
