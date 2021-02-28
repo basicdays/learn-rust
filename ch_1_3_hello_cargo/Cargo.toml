@@ -1,5 +1,5 @@
 [package]
-name = "ch_1_2_hello_cargo"
+name = "ch_1_3_hello_cargo"
 version = "0.1.0"
 authors = ["basicdays <info@basicdays.com>"]
 edition = "2018"
