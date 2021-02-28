@@ -1,13 +1,13 @@
 fn main() {
-    let mut counter = 0;
+	let mut counter = 0;
 
-    let result = loop {
-        counter += 1;
+	let result = loop {
+		counter += 1;
 
-        if counter == 10 {
-            break counter * 2;
-        }
-    };
+		if counter == 10 {
+			break counter * 2;
+		}
+	};
 
-    println!("The result is {}", result);
+	println!("The result is {}", result);
 }

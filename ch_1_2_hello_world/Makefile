@@ -5,3 +5,6 @@ main: main.rs
 
 lint:
 	clippy-driver main.rs
+
+format:
+	@echo "Format not implemented"
