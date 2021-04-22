@@ -3,6 +3,5 @@
 		"editor.defaultFormatter": "rust-lang.rust"
 	},
 	"editor.formatOnSave": true,
-	"rust-client.enableMultiProjectSetup": true,
 	"rust.clippy_preference": "on"
 }
