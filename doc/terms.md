@@ -1,7 +1,14 @@
 # Terms
 
+- Associated function
+  - A function implemented on a type, invoked with `::`
+- Enumeration
+  - Also called an enum
+  - Each state is called a "variant"
 - Arms
   - Blocks of code in a `match` or `if` segment
+- Shadowing
+  - Reuse a variable name with a new type
 - Scalar Types
   - A type representing a single value (i.e. integers, floating point
     numbers, booleans, and characters).

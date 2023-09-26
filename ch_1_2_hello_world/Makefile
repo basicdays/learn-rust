@@ -3,8 +3,14 @@ all: main
 main: main.rs
 	@rustc $<
 
+run: main
+	@./main
+
+clean:
+	@rm main
+
 lint:
-	clippy-driver main.rs
+	@clippy-driver main.rs
 
 format:
-	@echo "Format not implemented"
+	@rustfmt *.rs
